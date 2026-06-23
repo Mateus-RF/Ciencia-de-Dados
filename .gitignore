@@ -1,0 +1,113 @@
+# ==============================
+# Python
+# ==============================
+
+# Arquivos compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Extensões compiladas
+*.so
+
+# ==============================
+# Ambientes virtuais
+# ==============================
+
+venv/
+env/
+ENV/
+.venv/
+
+# ==============================
+# Configurações de IDE
+# ==============================
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+logs/
+
+# ==============================
+# Variáveis de ambiente
+# ==============================
+
+.env
+.env.*
+
+# ==============================
+# Dados de Ciência de Dados
+# ==============================
+
+# Dados brutos (normalmente grandes)
+data/raw/
+
+# Dados processados (gerados pelo pipeline)
+data/processed/
+
+# Arquivos temporários de dados
+*.csv
+*.xlsx
+*.json
+
+# Caso queira versionar algum CSV específico,
+# remova a regra acima e adicione exceções:
+# !data/raw/exemplo.csv
+
+# ==============================
+# Modelos e arquivos gerados
+# ==============================
+
+models/
+*.pkl
+*.pickle
+*.joblib
+
+# ==============================
+# Cache
+# ==============================
+
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==============================
+# Sistema operacional
+# ==============================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# macOS
+.DS_Store
+
+# ==============================
+# Distribuição Python
+# ==============================
+
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# Testes
+# ==============================
+
+.coverage
+htmlcov/
