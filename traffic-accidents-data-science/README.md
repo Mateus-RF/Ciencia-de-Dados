@@ -259,6 +259,13 @@ Os gráficos gerados permitem observar:
 ## Instalação das dependências
 
 Executar:
+```bash
+python -m venv venv
+```
+
+```bash
+cd traffic-accidents-data-science
+```
 
 ```bash
 pip install -r requirements.txt
