@@ -1,5 +1,6 @@
 # Análise de Acidentes de Trânsito no Brasil
 
+Equipe: Alice Maria de Lima Melo, Ana Rosimeire Ferreira dos Santos e Mateus Ribeiro Ferreira
 ## 1. Descrição do Projeto
 
 Este projeto tem como objetivo desenvolver um pipeline de dados aplicado à análise de acidentes de trânsito no Brasil, utilizando técnicas de Ciência de Dados para realizar a ingestão, tratamento, análise exploratória e visualização dos dados.
