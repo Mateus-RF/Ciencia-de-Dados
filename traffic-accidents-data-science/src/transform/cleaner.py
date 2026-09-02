@@ -90,11 +90,17 @@ def treat_missing(df):
     return df
 
 
-def remove_outliers_iqr(df):
+COLUNAS_EXCLUIDAS_DO_IQR = ["MORTOS", "FERIDOS", "ANO"]
 
-    colunas = df.select_dtypes(
-        include=np.number
-    ).columns
+def remove_outliers_iqr(df, colunas_excluidas=None):
+
+    colunas_excluidas = colunas_excluidas or COLUNAS_EXCLUIDAS_DO_IQR
+
+    colunas = [
+        coluna
+        for coluna in df.select_dtypes(include=np.number).columns
+        if coluna not in colunas_excluidas
+    ]
 
     for coluna in colunas:
         Q1 = df[coluna].quantile(
