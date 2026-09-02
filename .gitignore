@@ -69,7 +69,6 @@ data/processed/
 # Modelos e arquivos gerados
 # ==============================
 
-models/
 *.pkl
 *.pickle
 *.joblib
